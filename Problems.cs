@@ -10,19 +10,18 @@ namespace BasicProblems_A
     {
         public void UseCaseProblem()
         {
-            Console.Write("Enter the number: ");
-            int n = Convert.ToInt32(Console.ReadLine());
-
-            while (n < 0 || n >= 31)
+            int i, n;
+            double sum = 0.0;
+            // (1/1 + 1/2 + .... 1/N) 
+            Console.WriteLine("Enter the number of terms : ");
+            n = Convert.ToInt32(Console.ReadLine());
+            // Ensure (N! = 0)
+            for (i = 1; i <= n; i++)
             {
-                Console.Write("Enter valid number: ");
-                n = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("1/{0} + ", i);
+                sum += 1 / (float)i;
             }
-
-            for (int i = 1; i <= n; i++)
-            {
-                Console.WriteLine(Math.Pow(2, i));
-            }
+            Console.WriteLine("\nSum of Series upto {0} terms : {1} \n", n, sum);
         }
     }
 }
