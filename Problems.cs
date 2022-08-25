@@ -10,19 +10,16 @@ namespace BasicProblems_A
     {
         public void UseCaseProblem()
         {
-            int n1, n2, temp;
-            Console.Write("First Number : ");
-            n1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Second Number : ");
-            n2 = Convert.ToInt32(Console.ReadLine());
-            //Temp variable is used to swap numbers
-            temp = n1;
-            n1 = n2;
-            n2 = temp;
-            Console.Write("\nAfter Swapping : ");
-            Console.Write("\nFirst Number : " + n1);
-            Console.Write("\nSecond Number : " + n2);
-            Console.Read();
+            Console.WriteLine("Enter the number: ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            if (num % 2 == 0)
+            {
+                Console.Write(num + " is an even number.");
+            }
+            else if (num % 2 == 1)
+            {
+                Console.Write(num + " is an odd number.");
+            }
         }
     }
 }
