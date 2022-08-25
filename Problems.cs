@@ -10,18 +10,18 @@ namespace BasicProblems_A
     {
         public void UseCaseProblem()
         {
-            int i, n;
-            double sum = 0.0;
-            // (1/1 + 1/2 + .... 1/N) 
-            Console.WriteLine("Enter the number of terms : ");
-            n = Convert.ToInt32(Console.ReadLine());
-            // Ensure (N! = 0)
-            for (i = 1; i <= n; i++)
-            {
-                Console.WriteLine("1/{0} + ", i);
-                sum += 1 / (float)i;
-            }
-            Console.WriteLine("\nSum of Series upto {0} terms : {1} \n", n, sum);
+            Console.WriteLine("Enter the Divident: ");
+            int divi = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Divisor: ");
+            int divs = Convert.ToInt32(Console.ReadLine());
+
+            int quotient = divi / divs;
+            int remainder = divi % divs;
+
+            Console.WriteLine("Dividend:{0} Divisor:{1}", divi, divs);
+            Console.WriteLine("Quotient = " + quotient);
+            Console.WriteLine("Remainder = " + remainder);
+            Console.ReadLine();
         }
     }
 }
