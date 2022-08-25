@@ -9,17 +9,35 @@ namespace BasicProblems_A
     public class Problems
     {
         public void UseCaseProblem()
-        {
-            Console.WriteLine("Enter the number: ");
-            int num = Convert.ToInt32(Console.ReadLine());
-            if (num % 2 == 0)
+        { 
+            int a, b, c;
+            Console.Write("1st number :");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("2nd number :");
+            b = Convert.ToInt32(Console.ReadLine());
+            Console.Write("3rd number :");
+            c = Convert.ToInt32(Console.ReadLine());
+            // value comparison using nested if condition
+            if (a > b)
             {
-                Console.Write(num + " is an even number.");
+                if (a > c)
+                {
+                    Console.Write("The 1st Number is the greatest.\n");
+                }
+                else
+                {
+                    Console.Write("The 3rd Number is the greatest.\n");
+                }
             }
-            else if (num % 2 == 1)
+            else if (b > c)
             {
-                Console.Write(num + " is an odd number.");
+                Console.Write("The 2nd Number is the greatest.\n");
+            }
+            else
+            {
+                Console.Write("The 3rd Number is the greatest.\n");
             }
         }
     }
 }
+
