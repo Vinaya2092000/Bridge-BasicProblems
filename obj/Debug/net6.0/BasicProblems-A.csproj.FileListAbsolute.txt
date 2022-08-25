@@ -1,0 +1,15 @@
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\bin\Debug\net6.0\BasicProblems-A.exe
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\bin\Debug\net6.0\BasicProblems-A.deps.json
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\bin\Debug\net6.0\BasicProblems-A.runtimeconfig.json
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\bin\Debug\net6.0\BasicProblems-A.dll
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\bin\Debug\net6.0\BasicProblems-A.pdb
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\obj\Debug\net6.0\BasicProblems-A.csproj.AssemblyReference.cache
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\obj\Debug\net6.0\BasicProblems-A.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\obj\Debug\net6.0\BasicProblems-A.AssemblyInfoInputs.cache
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\obj\Debug\net6.0\BasicProblems-A.AssemblyInfo.cs
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\obj\Debug\net6.0\BasicProblems-A.csproj.CoreCompileInputs.cache
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\obj\Debug\net6.0\BasicProblems-A.dll
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\obj\Debug\net6.0\refint\BasicProblems-A.dll
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\obj\Debug\net6.0\BasicProblems-A.pdb
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\obj\Debug\net6.0\BasicProblems-A.genruntimeconfig.cache
+C:\Users\vinay\Documents\B-Practice\CoreProblems\BasicProblems-A\obj\Debug\net6.0\ref\BasicProblems-A.dll

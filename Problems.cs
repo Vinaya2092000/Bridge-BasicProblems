@@ -10,23 +10,18 @@ namespace BasicProblems_A
     {
         public void UseCaseProblem()
         {
-            Console.WriteLine("Enter the year: ");
-            int year = Convert.ToInt32(Console.ReadLine());
-            
-            while (year < 1000 || year > 9999)    //should have four digits
+            Console.Write("Enter the number: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            while (n < 0 || n >= 31)
             {
-                Console.WriteLine("Enter a 4 digit year: ");
-                year = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter valid number: ");
+                n = Convert.ToInt32(Console.ReadLine());
             }
 
-            // Divisible by 400 but not 100
-            if (((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)))
+            for (int i = 1; i <= n; i++)
             {
-                Console.WriteLine(year + " is a leap year");
-            }
-            else
-            {
-                Console.WriteLine(year + " is not a leap year");
+                Console.WriteLine(Math.Pow(2, i));
             }
         }
     }
