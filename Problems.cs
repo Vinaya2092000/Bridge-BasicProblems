@@ -10,40 +10,24 @@ namespace BasicProblems_A
     {
         public void UseCaseProblem()
         {
-            // variables
-            int head = 0;
-            int tail = 0;
-
-            Console.WriteLine("Enter the number of flips: ");
-            int NUMBER_OF_FLIPS = Convert.ToInt32(Console.ReadLine());
-
-            while (NUMBER_OF_FLIPS <= 0)
+            Console.WriteLine("Enter the year: ");
+            int year = Convert.ToInt32(Console.ReadLine());
+            
+            while (year < 1000 || year > 9999)    //should have four digits
             {
-                Console.WriteLine(" Invalid input, enter number greater than 0: ");
-                Console.WriteLine("Please enter a number: ");
-                NUMBER_OF_FLIPS = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter a 4 digit year: ");
+                year = Convert.ToInt32(Console.ReadLine());
             }
-            for (int i = 0; i < NUMBER_OF_FLIPS; i++)
+
+            // Divisible by 400 but not 100
+            if (((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)))
             {
-                Random flip = new Random();
-                int HoT = flip.Next(0, 2);  // (0, 1)
-
-                if (HoT < 0.5)
-                {
-                    head++;
-                }
-                else
-                {
-                    tail++;
-                }
+                Console.WriteLine(year + " is a leap year");
             }
-            float HEAD_PERCENT = (float)head / (float)NUMBER_OF_FLIPS;
-            float TAIL_PERCENT = (float)tail / (float)NUMBER_OF_FLIPS;
-
-            Console.WriteLine(HEAD_PERCENT + "is the % of times the result is head");
-            Console.WriteLine(TAIL_PERCENT + "is the % of times the result is tail");
-
-
+            else
+            {
+                Console.WriteLine(year + " is not a leap year");
+            }
         }
     }
 }
